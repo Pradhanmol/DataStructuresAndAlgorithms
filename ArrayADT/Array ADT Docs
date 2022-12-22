@@ -1,0 +1,22 @@
+Array ADT  
+- Reverse Array 
+- Left shift
+- Left rotate 
+- Right shift 
+- Right rotate
+
+* Reverse Array 
+  For Understanding array taking array size =10; length =10;
+   with filled this data 
+   	A = {8,3,9,15,6,10,7,2,12,4}
+
+   	Taking Auxillary array 
+   	i.e B = {4,12,2,7,10,6,15,9,3,8}
+
+   	How much taking time to reverse a array ?
+   	 1. A-> B - n times to taking the copy of array from b to a 
+   	 2. B-> A - n time to taking the copy of array from a to b
+
+   	 so time complexity is -> n+n = 2n so here degree of n is zero so time comlexity is O(n).
+
+   	 
