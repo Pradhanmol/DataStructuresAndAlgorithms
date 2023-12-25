@@ -1,0 +1,30 @@
+Topic: Displaying a Linked List
+Objective:
+
+Understanding traversal through a linked list.
+Creating a function to display all elements of the linked list.
+Process of Traversal:
+Traversal involves visiting all nodes of the linked list.
+Starting from the first node (first pointer), we create a temporary pointer P.
+P is initially set to point to the same node as first.
+Traversing Method:
+
+Move P to the next node by assigning P = P->next.
+This process continues, moving P to subsequent nodes.
+Traversal Loop:
+Utilizing a while loop for traversal.
+Continuation condition: while (P != NULL)
+As long as P is not pointing to NULL, the loop continues.
+Displaying the Linked List:
+Within the traversal loop:
+Utilizing printf("%d", P->data) to display the data of each node.
+Moving P to the next node (P = P->next) after displaying the data.
+Function Creation:
+A function display() is introduced, accepting first as a parameter.
+To call the function:
+display(first) is invoked, passing the first pointer.
+Final Remarks:
+Traversal of a linked list is crucial for performing various operations.
+Displaying elements, counting nodes, searching, or sorting—all achievable through traversal.
+display() function encapsulates the traversal process, aiding in showcasing all elements of the linked list.
+These notes summarize the lecture's main focus on traversing and displaying a linked list. They highlight the importance of traversal in manipulating linked list elements and introduce a display() function to exhibit all nodes of the linked list. The explanation elucidates the traversal process using a temporary pointer P and a while loop, emphasizing the significance of these components in linked list operations.

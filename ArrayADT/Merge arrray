@@ -1,0 +1,9 @@
+//Merge arrray 
+- First pre-condition both array must be sorted.
+- we need one more array 
+- here how we solve the issue in given below manner 
+ * first we need to take three index pointer i,j,k that are help in pointing the indexes of all three array.
+ * second we need traverse with two index & compare that element one is fixed & second one till then when the condition not get breached
+
+
+ 

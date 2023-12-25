@@ -18,7 +18,7 @@ void Display(struct Array arr){
 }
 void Delete(struct Array *arr, int index){
 	int x = arr->A[index];
-	for (int i = index; i < arr->length-1; ++i)
+	for (int i = index; i <= arr->length-1; ++i)
 	{
 		/* code */
 		arr->A[i] = arr->A[i+1];
